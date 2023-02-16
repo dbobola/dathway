@@ -1,0 +1,128 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Glad to have you here!",  "haha, the future hero is here", "my buddy, what took you so long to come to me?", "awww, how i have been expecting you"],
+         "context_set": ""
+        },
+
+        {"tag": "get-name",
+         "patterns": ["Lol", "I am fine", "I'm fine, thank you?", "great", "Yesss", "Yayyy", "Sorry", "I'm here", "Me too", "Definitely", "awesome"],
+         "responses": ["What's the name hero?",  "haha, what can i call you", "champ, what can i call you?", ""],
+         "context_set": ""
+        },
+
+        {"tag": "start-convo",
+         "patterns": ["my name is", "you can call me", "name"],
+         "responses": ["What do you think you are better at; reading, writing, drawing, thinking, solving or talking?"],
+         "context_set": ""
+        },
+
+
+        {"tag": "design",
+         "patterns": ["fine art", "singing", "gaming", "crafting", "puzzles", "racing", "crafting", "admiring a piece of art", "design", "making art", "fine art", "working in a team", "leading a team", "No, I don't have a business idea", "No, I haven't led a team in the past"],
+         "responses": [
+        "Fantastic! What activity amongst qualitative reasoning, quantitative reasoning, verbal reasoning, fine art, essay writing did you enjoy doing in school?",
+        "Hmmmmm, Interesting! If you were to choose a preffered hobby amongst singing, dancing, swimming, gaming, crafting, screen-time; what would it be?",
+        "Woww, Okay! Which of the following games do you prefer playing; sports, racing, puzzles, fighting, action-adventure, strategy or not a fan of games?",
+        "Amazing! So, what was the last thing you did amongst crafting, writing, thinking, advising or admiring a piece of art.",
+        "Fantabulous! Does your friend or relative code, write, market, design or no one does anything techie?",
+        "Nice to hear! So, which do you find intriguing; coding, writing, marketing, strategising, advising or making art?",
+        "Excellent! Okayy, So what subject were you best at in High School; Mathematics, Use of English, Fine Art, Science and Technology, Civic/Social Education",
+        "Reallyy? Okay, do you prefer leading a team or working in a team? if leading, - Please answer with I prefer leading a team or I prefer working in a team,",
+        "Impressive; Do you currently have a business idea ? - Please answer with Yes, I have a business idea or No, I don't have a business idea",
+        "Niceee, Have you led a team in the past ? - Please answer with Yes, I have led a team in the past or No, I haven't led a team in the past"
+        ],
+         "context_set": ""
+        },
+
+
+
+        {"tag": "coding",
+         "patterns": ["qualitative reasoning", "quantitative reasoning", "dancing", "singing", "gaming", "screen-time", "sports", "racing", "strategy", "puzzles", "action-adventure", "thinking", "code", "Mathematics", "Science and Technology", "leading a team", "i have a business idea", "yes, i have led a team in the past"],
+         "responses": [
+        "Fantastic! What activity amongst qualitative reasoning, quantitative reasoning, verbal reasoning, fine art, essay writing did you enjoy doing in school?",
+        "Hmmmmm, Interesting! If you were to choose a preffered hobby amongst singing, reading, dancing, swimming, gaming, crafting, screen-time; what would it be?",
+        "Woww, Okay! Which of the following games do you prefer playing; sports, racing, puzzles, fighting, action-adventure, strategy or not a fan of games?",
+        "Amazing! So, what was the last thing you did amongst crafting, writing, thinking, advising or admiring a piece of art.",
+        "Fantabulous! Does your friend or relative code, write, market, design or no one does anything techie?",
+        "Nice to hear! So, which do you find intriguing; coding, writing, marketing, strategising, advising or making art?",
+        "Excellent! Okayy, So what subject were you best at in High School; Mathematics, Use of English, Fine Art, Science and Technology, Civic/Social Education",
+        "Reallyy? Okay, do you prefer leading a team or working in a team? if leading, - Please answer with I prefer leading a team or I prefer working in a team,",
+        "Impressive; Do you currently have a business idea ? - Please answer with Yes, I have a business idea or No, I don't have a business idea",
+        "Niceee, Have you led a team in the past ? - Please answer with Yes, I have led a team in the past or No, I haven't led a team in the past"
+        ],
+         "context_set": ""
+        },
+
+
+        {"tag": "writing",
+         "patterns": ["qualitative reasoning", "verbal reasoning", "essay writing", "swimming", "dancing", "singing", "screen-time", "puzzles", "not a fan of games", "writing", "advising", "write", "market", "code", "Use of English", "Civic/Social Education", "working in a team", "no, i don't have a business idea", "No, I haven't led a team in the past"],
+         "responses": [
+        "Fantastic! What activity amongst qualitative reasoning, quantitative reasoning, verbal reasoning, fine art, essay writing did you enjoy doing in school?",
+        "Hmmmmm, Interesting! If you were to choose a preffered hobby amongst singing, reading, dancing, swimming, gaming, crafting, screen-time; what would it be?",
+        "Woww, Okay! Which of the following games do you prefer playing; sports, racing, puzzles, fighting, action-adventure, strategy or not a fan of games?",
+        "Amazing! So, what was the last thing you did amongst crafting, writing, thinking, advising or admiring a piece of art.",
+        "Fantabulous! Does your friend or relative code, write, market, design or no one does anything techie?",
+        "Nice to hear! So, which do you find intriguing; coding, writing, marketing, strategising, advising or making art?",
+        "Excellent! Okayy, So what subject were you best at in High School; Mathematics, Use of English, Fine Art, Science and Technology, Civic/Social Education",
+        "Reallyy? Okay, do you prefer leading a team or working in a team? if leading, - Please answer with I prefer leading a team or I prefer working in a team,",
+        "Impressive; Do you currently have a business idea ? - Please answer with Yes, I have a business idea or No, I don't have a business idea",
+        "Niceee, Have you led a team in the past ? - Please answer with Yes, I have led a team in the past or No, I haven't led a team in the past"
+        ],
+         "context_set": ""
+        },
+
+
+        {"tag": "analysis",
+         "patterns": ["qualitative reasoning", "quantitative reasoning", "screen-time", "singing", "gaming", "puzzles", "strategy", "not a fan of games", "thinking", "advising", "no-one does anything techie", "code", "write", "Mathematics", "Use of English", "leading in a team", "no, i do not have a business idea", "yes i have led a team in the past"],
+         "responses": [
+        "Fantastic! What activity amongst qualitative reasoning, quantitative reasoning, verbal reasoning, fine art, essay writing did you enjoy doing in school?",
+        "Hmmmmm, Interesting! If you were to choose a preffered hobby amongst singing, dancing, swimming, gaming, crafting, screen-time; what would it be?",
+        "Woww, Okay! Which of the following games do you prefer playing; sports, racing, puzzles, fighting, action-adventure, strategy or not a fan of games?",
+        "Amazing! So, what was the last thing you did amongst crafting, writing, thinking, advising or admiring a piece of art.",
+        "Fantabulous! Does your friend or relative code, write, market, design or no one does anything techie?",
+        "Nice to hear! So, which do you find intriguing; coding, writing, marketing, strategising, advising or making art?",
+        "Excellent! Okayy, So what subject were you best at in High School; Mathematics, Use of English, Fine Art, Science and Technology, Civic/Social Education",
+        "Reallyy? Okay, do you prefer leading a team or working in a team? if leading, - Please answer with I prefer leading a team or I prefer working in a team,",
+        "Impressive; Do you currently have a business idea ? - Please answer with Yes, I have a business idea or No, I don't have a business idea",
+        "Niceee, Have you led a team in the past ? - Please answer with Yes, I have led a team in the past or No, I haven't led a team in the past"        ],
+         "context_set": ""
+        },
+
+
+        {"tag": "marketing",
+         "patterns": ["quantitative reasoning", "essay writing", "swimming", "screen-time", "strategy", "puzzles", "advising", "market", "marketing", "coding", "strategising", "Mathematics", "Use of English", "Civic/Social Education", "leading a team", "yes, i have a business idea", "yes i have led a team in the past"],
+         "responses": [
+        "Fantastic! What activity amongst qualitative reasoning, quantitative reasoning, verbal reasoning, fine art, essay writing did you enjoy doing in school?",
+        "Hmmmmm, Interesting! If you were to choose a preffered hobby amongst singing, dancing, swimming, gaming, crafting, screen-time; what would it be?",
+        "Woww, Okay! Which of the following games do you prefer playing; sports, racing, puzzles, fighting, action-adventure, strategy or not a fan of games?",
+        "Amazing! So, what was the last thing you did amongst crafting, writing, thinking, advising or admiring a piece of art.",
+        "Fantabulous! Does your friend or relative code, write, market, design or no one does anything techie?",
+        "Nice to hear! So, which do you find intriguing; coding, writing, marketing, strategising, advising or making art?",
+        "Excellent! Okayy, So what subject were you best at in High School; Mathematics, Use of English, Fine Art, Science and Technology, Civic/Social Education",
+        "Reallyy? Okay, do you prefer leading a team or working in a team? if leading, - Please answer with I prefer leading a team or I prefer working in a team,",
+        "Impressive; Do you currently have a business idea ? - Please answer with Yes, I have a business idea or No, I don't have a business idea",
+        "Niceee, Have you led a team in the past ? - Please answer with Yes, I have led a team in the past or No, I haven't led a team in the past"
+        ],
+         "context_set": ""
+        },
+
+
+        {"tag": "management",
+         "patterns": ["qualitative reasoning", "quantitative reasoning", "screen-time", "puzzles", "strategy", "code", "writers", "coding", "strategising", "advising", "Mathematics", "Civic/Social Education", "leading a team", "yes, i have a lead in the past", "i have a business idea"],
+         "responses": [
+        "Fantastic! What activity amongst qualitative reasoning, quantitative reasoning, verbal reasoning, fine art, essay writing did you enjoy doing in school?",
+        "Hmmmmm, Interesting! If you were to choose a preffered hobby amongst singing, dancing, swimming, gaming, crafting, screen-time; what would it be?",
+        "Woww, Okay! Which of the following games do you prefer playing; sports, racing, puzzles, fighting, action-adventure, strategy or not a fan of games?",
+        "Amazing! So, what was the last thing you did amongst crafting, writing, thinking, advising or admiring a piece of art.",
+        "Fantabulous! Does your friend or relative code, write, market, design or no one does anything techie?",
+        "Nice to hear! So, which do you find intriguing; coding, writing, marketing, strategising, advising or making art?",
+        "Excellent! Okayy, So what subject were you best at in High School; Mathematics, Use of English, Fine Art, Science and Technology, Civic/Social Education",
+        "Reallyy? Okay, do you prefer leading a team or working in a team? if leading, - Please answer with I prefer leading a team or I prefer working in a team,",
+        "Impressive; Do you currently have a business idea ? - Please answer with Yes, I have a business idea or No, I don't have a business idea",
+        "Niceee, Have you led a team in the past ? - Please answer with Yes, I have led a team in the past or No, I haven't led a team in the past"
+        ],
+         "context_set": ""
+        }
+   ]
+}

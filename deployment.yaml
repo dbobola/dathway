@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dath-gpu-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dath-gpu-app
+  template:
+    metadata:
+      labels:
+        app: dath-gpu-app
+    spec:
+      containers:
+        - name: dath-gpu-container
+          image: nvidia/cuda:10.0-base-ubuntu18.04
+          resources:
+            limits:
+              nvidia.com/gpu: 1
+          command: ["echo", "Hello GPU!"]
